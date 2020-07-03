@@ -1,0 +1,38 @@
+66				nx (Imax)
+34				ny (Jmax)
+34				nz (kmax)
+400				tmax (Maximum no. of timestep)
+0				nfilter
+2				cycles (m.G. cycles bound)
+1.5                             OMEGA
+5                               NPRE
+4                               NTOP
+5                               NPOST
+0                               restart
+0.1                             maxcfl
+0                               iturb (=0 laminar, =1 lm sigt, =2 lm k'h', =3 k-eps, =4 ANISOTROPIC k-eps)
+2                               convectype (=1 upwind, =2 central)
+1                               hswitch (=0 off, 1=on)
+0.0	                        xvel1_si(0.7071)
+0.0				yvel1_si(-0.7071)
+0.0				zvel1_si
+0.5                             xvel2_si
+0.0                             yvel2_si
+0.0                             zvel2_si
+500. 				rho2-si(1.225)
+1000.0       			rho1-si(998.0 )
+0.0728				sigma-si (defult=0.0728 )
+0.001				visc2-si(0.0000194)
+0.001				visc1-si(0.001 )
+0.0				y-grav-si (grav-SI) (-6.9367)
+0.0				x-grav-si (grav1_si)
+2      				icase(=1ijet, =2idrop, =3ibubble, =4isheet)
+2                               ibc(=1 original, =2, standard)
+0.008	                        lengthxSI (1 or 0.016 )
+0.001		 	        radius_si (0.4 or 0.002)
+-0.00017365 				y0_SI (if =1000 y0 will be in center of channel automatically)
+1000				z0_SI (if =1000 z0 will be in center of channel automatically)
+5                               tprint
+50 				ntecplot 
+10000				tsave
+5				surfacet (1=css 2=csf 3=csfbkz 4=meier 5=SGIP 6=SGIP2)
