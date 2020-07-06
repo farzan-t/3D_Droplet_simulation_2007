@@ -1,2 +1,4 @@
-One of the final results:
-![droplet_simulation](https://user-images.githubusercontent.com/64373374/86490215-d5ff3a00-bd23-11ea-90fc-2b0215622437.gif)
+Input properties are in inputdata.in file. Including viscosity, density, inital velocity, gravity  
+One of the final results: <br />
+
+![](splash-on-wall.gif)
